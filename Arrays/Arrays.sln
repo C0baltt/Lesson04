@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays\Arrays.csproj", "{C82BCEF9-B4FE-440B-87FE-D04725C1B5DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array1", "Arrays\Array1.csproj", "{C82BCEF9-B4FE-440B-87FE-D04725C1B5DF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array2", "Array2\Array2.csproj", "{5FC04767-ED4D-4C8B-BEB6-C3C70DE742DC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array3", "Array3\Array3.csproj", "{E9F849CA-7630-4111-9683-B5B3C7A6C601}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aray4", "Aray4\Aray4.csproj", "{8F4DE614-A026-459F-A09E-C998421F5C48}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Array4", "Aray4\Array4.csproj", "{8F4DE614-A026-459F-A09E-C998421F5C48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
