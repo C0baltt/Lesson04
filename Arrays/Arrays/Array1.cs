@@ -5,7 +5,7 @@ namespace Arrays
     /*
      2. Write a program in C# Sharp to read n number of values in an array and display it in reverse order. 
      */
-    class Program
+    class Array1
     {
         static void Main(string[] args)
         {
@@ -13,15 +13,16 @@ namespace Arrays
             {
                 while (true)
                 {
-                    Console.WriteLine("Input number of elements from 3 to 10:");
+                    int minNumberOfArrayElements = 3, maxNumberOfArrayElements = 10;
+                    Console.WriteLine($"Input number of elements from {minNumberOfArrayElements} to {maxNumberOfArrayElements}:");
                     var input = Console.ReadLine();
-                    if ((Int32.TryParse(input, out int numberOfArrayElements)) && (numberOfArrayElements >= 3 && numberOfArrayElements <= 10))
+                    if ((Int32.TryParse(input, out int numberOfArrayElements)) && (numberOfArrayElements >= minNumberOfArrayElements && numberOfArrayElements <= maxNumberOfArrayElements))
                     {
                         return numberOfArrayElements;
                     }
                     else
                     {
-                        Console.WriteLine("Input only numbers from 3 to 10!\n");
+                        Console.WriteLine($"Input only numbers from {minNumberOfArrayElements} to {maxNumberOfArrayElements}!\n");
                     }
                 }
             }
