@@ -59,29 +59,29 @@ namespace Array5
                 Console.WriteLine("\n");
             }
 
-            int max = arrayElements[0], secondMax = arrayElements[0];
             FindSecondLargestElement();
-
             void FindSecondLargestElement()
             {
-                for(int i = 0;i < arrayElements.Length; i++)
+                int max = arrayElements[0];
+                for (int i = 0;i < arrayElements.Length; i++)
                 {
                     if (max < arrayElements[i])
                     {
                         max = arrayElements[i];
                     }
                 }
-                for (int i = 0; i < arrayElements.Length; i++)
+                int secondMax = (max == arrayElements[0] ? arrayElements[1] : arrayElements[0]);
+                int different = (max - arrayElements[0]) == 0 ? max - arrayElements[1] : max - arrayElements[0];
+                for (int i = 1; i < arrayElements.Length; i++)
                 {
-                    if ((secondMax < arrayElements[i]) && (arrayElements[i] != max))
+                    if ((different > (max - arrayElements[i])) && (max != arrayElements[i]))
                     {
+                        different = max - arrayElements[i];
                         secondMax = arrayElements[i];
                     }
                 }
-            }
-
-            //Console.Write($"The Second largest element in the array is: {secondMax}\n");
-            Console.Write($"max = {max}, secondMax = {secondMax}\n");
+                Console.Write($"max = {max}, secondMax = {secondMax}\n");
+            }   
         }
     }
 }
