@@ -9,7 +9,6 @@ namespace DifficultExercise2
         static void Main(string[] args)
         {
             int[] nums = new[] { 12, 345, 2, 6, 7896 };
-
             
             printArray();
             void printArray()
