@@ -3,7 +3,7 @@
 namespace DifficultExercises
 {
     /*
-     Given an integer array nums. Move all 0 to the end of while maintaining the relative order of the non-zero elements
+     Given an integer array numbers. Move all 0 to the end of while maintaining the relative order of the non-zero elements
     that you must do this in-place without making a copy of the array
      */
     class DifficultExercise1

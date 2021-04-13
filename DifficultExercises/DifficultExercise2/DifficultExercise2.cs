@@ -2,7 +2,7 @@
 
 namespace DifficultExercise2
 {/*
-  Given an array nums of integers, return how many of item contain an even number of digits
+  Given an array numbers of integers, return how many of item contain an even number of digits
   */
     class DifficultExercise2
     {
